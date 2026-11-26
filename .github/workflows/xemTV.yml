@@ -1,0 +1,58 @@
+name: Filter Live M3U Channels
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: repo-auto-commit-${{ github.ref_name }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  filter-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Clone repository
+        env:
+          REPO_URL: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          BRANCH: "${{ github.ref_name }}"
+        run: |
+          git clone --depth=1 --branch "$BRANCH" "$REPO_URL" workdir
+          cd workdir
+          git checkout -B "$BRANCH"
+
+      - name: Install requests and run filter_live.py
+        run: |
+          python3 -m pip install --break-system-packages --upgrade pip requests || pip install requests
+          cd workdir
+          python3 filter_live.py http-iptv.m3u
+
+      - name: Commit and push http-iptv.m3u if changed
+        env:
+          REPO_URL: "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          BRANCH: "${{ github.ref_name }}"
+        run: |
+          cd workdir
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add http-iptv.m3u
+          if git diff --staged --quiet; then
+            echo "No changes in http-iptv.m3u, skip commit."
+          else
+            git commit -m "chore: update http-iptv.m3u ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash "$REPO_URL" "$BRANCH"
+              if git push "$REPO_URL" "HEAD:$BRANCH"; then
+                echo "Push succeeded on attempt $attempt"
+                break
+              fi
+              echo "Push rejected, retrying in 3s..."
+              sleep 3
+            done
+          fi
