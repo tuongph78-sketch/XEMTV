@@ -192,9 +192,6 @@ https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u
 #EXTINF:-1 tvg-id="danang1" group-title="Địa Phương" tvg-logo="https://i.postimg.cc/8jwBQ42q/dnrt1.png",Đà Nẵng TV1 (1080p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8
-#EXTINF:-1 tvg-id="quangngai" group-title="Địa Phương",Quảng Ngãi TV1 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8
 #EXTINF:-1 tvg-id="gialai" group-title="Địa Phương",Gia Lai TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://tldigital-17th06day-tl9648290.duckdns.org/tv.m3u8
@@ -216,18 +213,11 @@ https://618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist.m3u8
 #EXTINF:-1 tvg-id="cantho1" group-title="Địa Phương",Cần Thơ TV1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.canthotv.vn/live/tv/chunklist.m3u8
-#EXTINF:-1 tvg-id="cantho3" group-title="Địa Phương",Cần Thơ TV3 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.canthotv.vn/cs3/tv/chunklist.m3u8
 #EXTINF:-1 tvg-id="camau" group-title="Địa Phương" tvg-logo="https://i.imgur.com/ZKV1ok2.png",Cà Mau TV (720p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tv.ctvcamau.vn/live/tv/tv.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-www.bluestacks.com/bs-images/6afe0936c9d1e5e57d9fb72490019092.png",✍ Kham Pha 27/11--28/11
 http://192.168.1.30:6878/ace/getstream?id=01ca28470d6b820ed715f83e0621be9b8586e8d2
-#EXTINF:-1 group-title="LIVE" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-bt-sport-espn-98.png",15h40 Macarthur---Melbourne City 1 BT SPORT 4 FHD
-http://192.168.1.30:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
-#EXTINF:-1 group-title="LIVE" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-sportdigital-167.png",15h40 Macarthur---Melbourne City 2 SPORTDIGITAL FHD
-http://192.168.1.30:6878/ace/getstream?id=5e94200ae8b1d95cb559fb150e5993d92e15d4e7
 #EXTINF:-1 group-title="LIVE" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-us-fox-sports-2-61.png",21h00 U17 Costa Rica---Brazil 1 FOX SPORT 2 US HD
 http://192.168.1.30:6878/ace/getstream?id=cba8d369eac629b577750edb90370cd1c5fb03b7
 #EXTINF:-1 group-title="LIVE" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-sport-4-1024.png",21h00 U17 Costa Rica---Brazil 2 SPORT 4 IL FHD
@@ -296,6 +286,8 @@ http://192.168.1.30:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c39235
 http://192.168.1.30:6878/ace/getstream?id=868a6187d6aeec65ded84bd777814c9f7b7a9027
 #EXTINF:-1 group-title="LIVE" tvg-logo="https://cdn.livesoccertv.com/images/channels/thumbnails/movistar-laliga.png",3h00 Levante---Racing Santander 6 M LALIGA FHD
 http://192.168.1.30:6878/ace/getstream?id=31c19ffb3472c289c5bbbbc174449c8ed0d19e38
+#EXTINF:-1 group-title="LIVE" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-sportdigital-167.png",3h15 Marítimo---Nacional 1 SPORTDIGITAL FHD
+http://192.168.1.30:6878/ace/getstream?id=5e94200ae8b1d95cb559fb150e5993d92e15d4e7
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-canal-sport-cz-2780.png",CANAL+ SPORT CZ FHD
 http://192.168.1.30:6878/ace/getstream?id=fc702b72e42792a13c1f531004c2df2ac8242b69
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-canal-sport-2-cz-2774.png",CANAL+ SPORT 2 CZ FHD
@@ -338,6 +330,8 @@ http://192.168.1.30:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c
 http://192.168.1.30:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
 #EXTINF:-1 tvg-id="BT Sport 3" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-bt-sport-3-108.png" group-title="SPORTS",BT SPORT 3 UK FHD
 http://192.168.1.30:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1 tvg-id="BT Sport espn" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-bt-sport-espn-98.png" group-title="SPORTS",BT SPORT 4 UK FHD
+http://192.168.1.30:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-us-espn-29.png" group-title="SPORTS",ESPN US HD 60FPS
 http://192.168.1.30:6878/ace/getstream?id=4b4907de51ec11087d4bed5876f2a0c68264f442
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-nz-espn-2-466.png" group-title="SPORTS",ESPN 2 US HD 60FPS
