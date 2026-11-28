@@ -58,8 +58,6 @@ https://dethich.pw/vtv10/index.m3u8
 #EXTINF:-1 tvg-id="onkids" group-title="VTVcab" tvg-logo="https://i.imgur.com/Y2SzhHG.png",ON Kids (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=179
-#EXTINF:-1 tvg-id="onsports" group-title="VTVcab",ON Sports HD (720p)
-http://antm.dynu.net:14285/rtp/232.84.1.208:9222
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab",ON Sports+ (720p)
 http://antm.dynu.net:14285/rtp/232.84.1.220:9294
 #EXTINF:-1 tvg-id="" group-title="VTVcab",ON Vie Drama (720p)
@@ -108,19 +106,19 @@ https://dethich.pw/htv4/index.m3u8
 #EXTINF:-1 tvg-id="htv5" group-title="HTV" tvg-logo="https://i.imgur.com/EI0mJRf.png",HTV5 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=151
-#EXTINF:-1 tvg-id="htv7" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (1080p)
+#EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=193
-#EXTINF:-1 tvg-id="htv7" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (1080p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://1011154949.vnns.net/CDN-FPT02/HTV7-HD-1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="htv7" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (720p)
+#EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dethich.pw/htv7/index.m3u8
-#EXTINF:-1 tvg-id="htv9" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (1080p)
+#EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=194
-#EXTINF:-1 tvg-id="htv9" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (720p)
+#EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dethich.pw/htv9/index.m3u8
 #EXTINF:-1 tvg-id="htvcgiadinh" group-title="HTV" tvg-logo="https://i.imgur.com/Al6xJme.png",HTVC Family (720p)
@@ -135,46 +133,46 @@ https://dethich.pw/htvcphunu/index.m3u8
 #EXTINF:-1 tvg-id="htvthethao" group-title="HTV" tvg-logo="https://i.imgur.com/ikaiET3.png",HTV Sports (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://dethich.pw/htvthethao/index.m3u8
-#EXTINF:-1 tvg-id="sctv2" group-title="SCTV" tvg-logo="https://i.imgur.com/iMDjKF9.png",SCTV2 (720p)
+#EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://i.imgur.com/iMDjKF9.png",SCTV2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8
-#EXTINF:-1 tvg-id="sctv3" group-title="SCTV",SCTV3 (720p)
+#EXTINF:-1 tvg-id="sctv3hd" group-title="SCTV",SCTV3 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
-#EXTINF:-1 tvg-id="sctv4" group-title="SCTV",SCTV4 (720p)
+#EXTINF:-1 tvg-id="sctv4hd" group-title="SCTV",SCTV4 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
-#EXTINF:-1 tvg-id="sctv6" group-title="SCTV" tvg-logo="https://i.imgur.com/tdozyTU.png",SCTV6 (720p)
+#EXTINF:-1 tvg-id="sctv6hd" group-title="SCTV" tvg-logo="https://i.imgur.com/tdozyTU.png",SCTV6 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv6/master.m3u8
-#EXTINF:-1 tvg-id="sctv7" group-title="SCTV",SCTV7 (720p)
+#EXTINF:-1 tvg-id="sctv7hd" group-title="SCTV",SCTV7 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv7/master.m3u8
-#EXTINF:-1 tvg-id="sctv9" group-title="SCTV",SCTV9 (720p)
+#EXTINF:-1 tvg-id="sctv9hd" group-title="SCTV",SCTV9 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8
-#EXTINF:-1 tvg-id="sctv11" group-title="SCTV",SCTV11 (720p)
+#EXTINF:-1 tvg-id="sctv11hd" group-title="SCTV",SCTV11 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/master.m3u8
-#EXTINF:-1 tvg-id="sctv12" group-title="SCTV",SCTV12 (720p)
+#EXTINF:-1 tvg-id="sctv12hd" group-title="SCTV",SCTV12 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/master.m3u8
-#EXTINF:-1 tvg-id="sctv13" group-title="SCTV",SCTV13 (720p)
+#EXTINF:-1 tvg-id="sctv13hd" group-title="SCTV",SCTV13 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/master.m3u8
-#EXTINF:-1 tvg-id="sctv14" group-title="SCTV",SCTV14 (720p)
+#EXTINF:-1 tvg-id="sctv14hd" group-title="SCTV",SCTV14 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/master.m3u8
-#EXTINF:-1 tvg-id="sctv16" group-title="SCTV",SCTV16 (720p)
+#EXTINF:-1 tvg-id="sctv16hd" group-title="SCTV",SCTV16 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/master.m3u8
-#EXTINF:-1 tvg-id="sctv18" group-title="SCTV",SCTV18 (720p)
+#EXTINF:-1 tvg-id="sctv18hd" group-title="SCTV",SCTV18 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/master.m3u8
-#EXTINF:-1 tvg-id="sctv19" group-title="SCTV",SCTV19 (720p)
+#EXTINF:-1 tvg-id="sctv19hd" group-title="SCTV",SCTV19 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/master.m3u8
-#EXTINF:-1 tvg-id="sctv20" group-title="SCTV",SCTV20 (720p)
+#EXTINF:-1 tvg-id="sctv20hd" group-title="SCTV",SCTV20 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
 #EXTINF:-1 tvg-id="caobang" group-title="Địa Phương" tvg-logo="https://i.imgur.com/RUJmK5D.png",Cao Bằng TV (720p)
@@ -183,6 +181,9 @@ https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="laocai" group-title="Địa Phương" tvg-logo="https://i.imgur.com/Vd0P0rx.png",Lào Cai TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.baolaocai.vn/channel2/stream.m3u8
+#EXTINF:-1 tvg-id="thainguyen" group-title="Địa Phương" tvg-logo="https://i.imgur.com/P3pbab8.png",Thái Nguyên TV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://streaming.thainguyentv.vn/hls/livestream.m3u8
 #EXTINF:-1 tvg-id="nghean" group-title="Địa Phương" tvg-logo="https://i.postimg.cc/34pk2LsV/Logo-natv-2026.png",Nghệ An TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8
