@@ -3,61 +3,27 @@
 https://livesct.vtvprime.vn/Live_DASHDRM1/VTV1_HD/manifest.mpd
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.postimg.cc/F1nZ7403/VTV1.png",VTV1 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv1/index.m3u8
-#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://i.postimg.cc/F1nZ7403/VTV1.png",VTV1 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://luuchieu.truyenhinhso.vn/media/live/C90B082632CD4A75F4B3EDB3/index.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.postimg.cc/t15dyQX4/VTV2.png",VTV2 HD (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://125hvt.ddns.net:21585/vtv2/playlist.m3u8
-#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.postimg.cc/t15dyQX4/VTV2.png",VTV2 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv2/index.m3u8
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://i.postimg.cc/7bc3qNyC/VTV3.png",VTV3 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv3/index.m3u8
-#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.postimg.cc/8jGLm7cp/VTV4.png",VTV4 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv4/index.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.postimg.cc/8jGLm7cp/VTV4.png",VTV4 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv4/master.m3u8
-#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.postimg.cc/xJ8m2Xxt/VTV5.png",VTV5 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv5/index.m3u8
-#EXTINF:-1 tvg-id="vtv5hdtnbhd" group-title="VTV",VTV5 Tay Nam Bo HD (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv5tnb/index.m3u8
-#EXTINF:-1 tvg-id="vtv5hdtnhd" group-title="VTV",VTV5 Tay Nguyen HD (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://dethich.pw/vtv5tn/index.m3u8
-#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.postimg.cc/tYQsrvj2/VTV6.png",VTV6 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv6/index.m3u8
-#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.postimg.cc/xXgq10zj/VTV7.png",VTV7 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv7/index.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.postimg.cc/xXgq10zj/VTV7.png",VTV7 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv7/master.m3u8
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.postimg.cc/y3F84BKC/VTV8.png",VTV8 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv8/index.m3u8
-#EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.postimg.cc/y3F84BKC/VTV8.png",VTV8 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv8/master.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.postimg.cc/SnQN5wtB/VTV9.png",VTV9 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv9/index.m3u8
-#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.postimg.cc/SnQN5wtB/VTV9.png",VTV9 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv9/master.m3u8
-#EXTINF:-1 tvg-id="vtv10hd" group-title="VTV" tvg-logo="https://i.postimg.cc/tnH9zfxF/VTV10.png",VTV10 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/vtv10/index.m3u8
 #EXTINF:-1 tvg-id="onkids" group-title="VTVcab" tvg-logo="https://i.imgur.com/Y2SzhHG.png",ON Kids (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=179
+#EXTINF:-1 tvg-id="onsports" group-title="VTVcab",ON Sports HD (720p)
+http://antm.dynu.net:14285/rtp/232.84.1.208:9222
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab",ON Sports+ (720p)
 http://antm.dynu.net:14285/rtp/232.84.1.220:9294
 #EXTINF:-1 tvg-id="" group-title="VTVcab",ON Vie Drama (720p)
@@ -82,27 +48,15 @@ https://freem3u.xyz/api/live/play.m3u8?vid=176
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://i.imgur.com/KEMSBD3.png",HTV1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=190
-#EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://i.imgur.com/KEMSBD3.png",HTV1 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv1/index.m3u8
 #EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/2npoF3Q.png",HTV2 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=191
-#EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/2npoF3Q.png",HTV2 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv2/index.m3u8
 #EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://i.imgur.com/TCoIsVF.png",HTV3 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=192
-#EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://i.imgur.com/TCoIsVF.png",HTV3 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv3/index.m3u8
 #EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/BcCA0x2.png",HTV4 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=9
-#EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/BcCA0x2.png",HTV4 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv4/index.m3u8
 #EXTINF:-1 tvg-id="htv5" group-title="HTV" tvg-logo="https://i.imgur.com/EI0mJRf.png",HTV5 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=151
@@ -112,27 +66,9 @@ https://freem3u.xyz/api/live/play.m3u8?vid=193
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (1080p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://1011154949.vnns.net/CDN-FPT02/HTV7-HD-1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV7 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv7/index.m3u8
 #EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://freem3u.xyz/api/live/play.m3u8?vid=194
-#EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/6GSN524.png",HTV9 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htv9/index.m3u8
-#EXTINF:-1 tvg-id="htvcgiadinh" group-title="HTV" tvg-logo="https://i.imgur.com/Al6xJme.png",HTVC Family (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htvcgiadinh/index.m3u8
-#EXTINF:-1 tvg-id="htvcphim" group-title="HTV" tvg-logo="https://i.imgur.com/P0wqvmu.png",HTVC Movies (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htvcphim/index.m3u8
-#EXTINF:-1 tvg-id="htvcphunu" group-title="HTV" tvg-logo="https://i.imgur.com/FxzpvHI.png",HTVC Women (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htvcphunu/index.m3u8
-#EXTINF:-1 tvg-id="htvthethao" group-title="HTV" tvg-logo="https://i.imgur.com/ikaiET3.png",HTV Sports (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dethich.pw/htvthethao/index.m3u8
 #EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://i.imgur.com/iMDjKF9.png",SCTV2 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8
@@ -190,6 +126,9 @@ https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u
 #EXTINF:-1 tvg-id="danang1" group-title="Địa Phương" tvg-logo="https://i.postimg.cc/8jwBQ42q/dnrt1.png",Đà Nẵng TV1 (1080p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8
+#EXTINF:-1 tvg-id="danang2" group-title="Địa Phương" tvg-logo="https://i.postimg.cc/870Rs5Pm/dnrt2.png",Đà Nẵng TV2 (1080p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
 #EXTINF:-1 tvg-id="quangngai" group-title="Địa Phương",Quảng Ngãi TV1 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8
