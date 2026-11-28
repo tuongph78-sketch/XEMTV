@@ -222,6 +222,8 @@ SPECIAL_TVG_ID_MAP: Final[dict[str, str]] = {
 CLEAN_GEO_PREFIX: Final[bool] = True
 NORMALIZE_TVG_ID: Final[bool] = True
 APPEND_HD_TO_VTV_TVG_ID: Final[bool] = True
+APPEND_HD_TO_SCTV_TVG_ID: Final[bool] = True
+SPECIAL_HD_TVG_IDS: Final[frozenset[str]] = frozenset({"htv7", "htv9"})
 SORT_OUTPUT: Final[bool] = True
 NORMALIZE_GROUP_TITLE: Final[bool] = True
 ONLY_M3U8: Final[bool] = False
@@ -621,10 +623,20 @@ def normalize_tvg_id_value(raw_id: str, group: str = "") -> str:
 
     compact = QUALITY_SUFFIX_RE.sub("", compact)
 
+    if not compact:
+        return ""
+
     if APPEND_HD_TO_VTV_TVG_ID and (
         group == "VTV" or (compact.startswith("vtv") and not compact.startswith("vtvcab"))
     ):
-        if compact and not compact.endswith("hd"):
+        if not compact.endswith("hd"):
+            compact = f"{compact}hd"
+
+    if compact in SPECIAL_HD_TVG_IDS and not compact.endswith("hd"):
+        compact = f"{compact}hd"
+
+    if APPEND_HD_TO_SCTV_TVG_ID and (group == "SCTV" or compact.startswith("sctv")):
+        if not compact.endswith("hd"):
             compact = f"{compact}hd"
 
     return compact
@@ -1222,4 +1234,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
